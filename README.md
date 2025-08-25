@@ -82,7 +82,7 @@ Puedes modificar la programación desde el Programador de Tareas de Windows para
 ```
 Auto nominas/
 ├── .venv/                    # Entorno virtual de Python
-├── credentials.json          # Credenciales OAuth 2.0 (ya existe)
+├── credentials.json          # Credenciales OAuth 2.0 (descargar de Google Cloud Console)
 ├── token.pickle              # Token de autenticación (se genera automáticamente)
 ├── config.py                 # Configuración del proyecto
 ├── gmail_processor.py        # Clase principal del procesador
@@ -139,3 +139,4 @@ Puedes modificar `gmail_processor.py` para:
 - Añadir filtros adicionales para los correos
 - Modificar la estructura de carpetas en Drive
 - Añadir procesamiento adicional de los archivos extraídos
+
